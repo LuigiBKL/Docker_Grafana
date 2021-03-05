@@ -22,6 +22,16 @@ Les différents fichiers dont on aura besoin sont les suivants:
 ![image](/Images/automatic.png)
 - [dashoard.yml](/dashbords/dashboard.yml) qui définti les paramètres de nos dashboards
 ![image](/Images/dashboard-config.png)
-- les différents fichiers json:[graphana.json](/dashboards/grafana.json),[test-1614937473893.json](/dashboards/test-1614937473893.json),[vdsdsc-1614943367241.json](/dashboards/vdsdsc-1614943367241.json)( qui sont en fait les différents dashboard contenant les différents graphes)
+- les différents fichiers json:[graphana.json](/dashboards/grafana.json),[test-1614937473893.json](/dashboards/test-1614937473893.json),[vdsdsc-1614943367241.json](/dashboards/vdsdsc-1614943367241.json)( qui sont en fait les différents dashboard contenant les différents graphes).
+
+## Création des containers
+
+- Une fois tous ces fichiers mis dans le même repertoire, on ouvre un powershell ou une invite de commande, on se place dans le dit repertoire en question et on rentre la commande 'cd: chemin du repertoire'. 
+- Puis on tape la commade : docker-compose up -d
+Docker va automatiquement builder nos 2 container on aura juste à ouvrir un navigateur web et rentrer l'adresse ip du serveur suivi du port aloué que l'on a défini pour grafana. On accède directement aux différents graphes en tant que viewer si l'on souhaite rajouter ou modifier des graphes faudra se connecter en admin.
+
+![image](/Images/dashboards.png)
+
+
 
 
