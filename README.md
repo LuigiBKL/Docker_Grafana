@@ -22,6 +22,6 @@ Les différents fichiers dont on aura besoin sont les suivants:
 ![image](/Images/automatic.png)
 - [dashoard.yml](/dashbords/dashboard.yml) qui définti les paramètres de nos dashboards
 ![image](/Images/dashboard-config.png)
-- les différents fichiers json:[graphana.json](/dashboards/graphana.json),[test-1614937473893.json](/dashboards/test-1614937473893.json),[vdsdsc-1614943367241.json](/dashboards/vdsdsc-1614943367241.json)( qui sont en fait les différents dashboard contenant les différents graphes)
+- les différents fichiers json:[graphana.json](/dashboards/grafana.json),[test-1614937473893.json](/dashboards/test-1614937473893.json),[vdsdsc-1614943367241.json](/dashboards/vdsdsc-1614943367241.json)( qui sont en fait les différents dashboard contenant les différents graphes)
 
 
