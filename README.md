@@ -14,7 +14,8 @@ On aura besoin des logiciels suivant:
 
 Les différents fichiers dont on aura besoin sont les suivants:
 
-- [vaccination.sql](/vaccination.sql) qui contient les données qui seront insérées dans le volume de notre conteneur mysql. Si l'on souhaite changer de base données ou en créer  une autre (en rapport avec celle(s) présentes dans notre conteneur mysql), il faudra modifier la ligne 
+- [vaccination.sql](/vaccination.sql) qui contient les données qui seront insérées dans le volume de notre conteneur mysql. Si l'on souhaite changer de base données ou en créer  une autre (en rapport avec celle(s) présentes dans notre conteneur mysql), il faudra modifier les lignes 22 et 30.
+![image](/Images/vaccination.png) 
 - [docker-compose.yml](/docker-compose.yml): qui va se charger de builder nos différents conteneurs (mysql et grafana) avec les différents paramètres (à savoir le nom des différents conteneurs les volumes à mettre à en place, les mots de passe si besoin,les autorisations à donner pour grafana [admin ou viewer] etc).
 ![image](/Images/Docker-compose.png)
 - [automatic.yml](/datasources/automatic.yml) qui contient les différents paramètres de configuration de la datasource de grafana 
