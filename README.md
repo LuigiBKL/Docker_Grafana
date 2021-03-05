@@ -16,6 +16,8 @@ Les différents fichiers dont on aura besoin sont les suivants:
 
 - [vaccination.sql](/vaccination.sql) qui contient les données qui seront insérer dans le volume de notre conteneur mysql
 - [docker-compose.yml](/docker-compose.yml): qui va se charger de builder nos différents conteneurs (mysql et grafana) avec les différents paramètres (à savoir le nom des différents conteneurs les volumes à mettre à en place, les mots de passe si besoin,les autorisations à donner pour grafana [admin ou viewer] etc).
-![image](/docker-compose.png
+![image](/docker-compose.png)
+- [automatic.yml](/datasources/automatic.yml) qui contient les différents paramètres de configuration de la datasource de grafana 
+![image](/automatic.png)
 
 
