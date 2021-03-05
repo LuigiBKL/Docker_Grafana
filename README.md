@@ -5,8 +5,8 @@ Le but est de pouvoir mettre en place deux conteneurs (mysql et grafana) sur un 
 ## Installation des logiciels nécessaires
 
 On aura besoin des logiciels suivant:
--[Docker desktop pour windows](https://www.docker.com/products/docker-desktop) pour gérer nos diffirénts conteneurs
--[Filezila](https://filezilla-project.org/) qui nous permettra de pouvoir déposer des fichiers directement sur le serveur où l'on souhaite déployer nos conteneurs
+- [Docker desktop pour windows](https://www.docker.com/products/docker-desktop) pour gérer nos diffirénts conteneurs
+- [Filezila](https://filezilla-project.org/) qui nous permettra de pouvoir déposer des fichiers directement sur le serveur où l'on souhaite déployer nos conteneurs
 
 ## Manipulation à faire
 
