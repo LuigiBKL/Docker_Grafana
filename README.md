@@ -37,9 +37,9 @@ Les différents fichiers dont on aura besoin sont les suivants:
 
 ## Création des containers
 
-- Une fois tous ces fichiers mis dans le même repertoire, on ouvre un powershell ou une invite de commande, on se place dans le dit repertoire en question et on rentre la commande 'cd: chemin du repertoire'. 
+- Une fois tous ces fichiers mis dans le même repertoire, on ouvre un powershell ou une invite de commande, on se place dans le dit repertoire et on rentre la commande 'cd: chemin du repertoire'. 
 - Puis on tape la commade : docker-compose up -d
-Docker va automatiquement builder nos 2 container on aura juste à ouvrir un navigateur web et rentrer l'adresse ip du serveur suivi du port aloué que l'on a défini pour grafana. On accède directement aux différents graphes en tant que viewer si l'on souhaite rajouter ou modifier des graphes faudra se connecter en admin.
+Docker va automatiquement builder nos 2 containers, on aura juste à ouvrir un navigateur web et rentrer l'adresse ip du serveur suivi du port aloué que l'on a défini pour grafana. On accède directement aux différents graphes en tant que viewer si l'on souhaite rajouter ou modifier des graphes faudra se connecter en admin.
 
 ![image](/Images/dashboard.png)
 
