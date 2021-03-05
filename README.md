@@ -20,5 +20,7 @@ Les différents fichiers dont on aura besoin sont les suivants:
 ![image](/Images/Docker-compose.png)
 - [automatic.yml](/datasources/automatic.yml) qui contient les différents paramètres de configuration de la datasource de grafana 
 ![image](/Images/automatic.png)
+- [dashoard.yml](/dashbords/dashboard.yml) qui définti les paramètres de nos dashboards
+![image](/Images/dashboard-config.png)
 
 
